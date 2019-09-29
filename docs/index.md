@@ -16,7 +16,7 @@ use run when done working
 make sure - quality check
 
 `cargo build --release` 
-Creates executable in target/release rather than target/debug. Compiles with optimizations
+creates executable in target/release rather than target/debug. Compiles with optimizations
 
 `const` 
 declare constant
