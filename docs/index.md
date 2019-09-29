@@ -21,7 +21,7 @@ creates executable in target/release rather than target/debug. Compiles with opt
 `const` 
 declare constant
 
-`let`   
+`let`
 declare variable
 
 Constants can be declared in any scope - set to constant expression not to the result of a function call or a value that can be computed at runtime
