@@ -4,27 +4,26 @@
 `cd name`
 
 `cargo build` 
-//compile
+compile
 
 `./target/debug/name #` 
-//create executable, use debug while working
+create executable, use debug while working
 
 `cargo run` 
-//use run when done working
+use run when done working
 
 `cargo check` 
-//make sure - quality check
+make sure - quality check
 
 `cargo build --release` 
-//creates executable in target/release rather than target/debug. 
-//compiles with optimizations
+Creates executable in target/release rather than target/debug. Compiles with optimizations
 
 `const` 
-//to declare constant
+declare constant
 
 `let`   
-//to declare variable
-//constants can be declared in any scope - set to constant expression
-      //not to the result of a function call or a value that can be computed at runtime
+declare variable
+
+Constants can be declared in any scope - set to constant expression not to the result of a function call or a value that can be computed at runtime
       
       
