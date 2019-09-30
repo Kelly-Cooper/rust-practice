@@ -28,9 +28,9 @@ Constants can be declared in any scope - set to constant expression not to the r
 
 Variable shadowing - first variable is shadowed by the second. Value is what appers when the variable is used. Use same variable name - repeat use of let keyword.
 
-`let x = 10;
+```let x = 10;
 let x = x + 5;
-let x = x * 4;`
+let x = x * 4;```
 
 first binds to 10, then 15, then 60
 
