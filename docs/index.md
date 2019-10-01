@@ -1,3 +1,5 @@
+## Quick Reminder List
+Helps my brain shift between Rust and Go to visualize this reminder.
 
 `cargo new name`
 
@@ -37,6 +39,8 @@ first binds to 10, then 15, then 60
 
 Perform a few transformations on a value; value is immutable after transformations are complete
 Multiple `let` can change type
+
+### Data Types
 
 
 in progress - adding daily
