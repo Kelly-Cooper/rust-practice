@@ -1,4 +1,6 @@
 ## Quick Reminder List
+### Notes from The Rust Programming Language, Klabnik and Nichols, no starch press
+
 Helps my brain shift between Rust and Go to visualize this reminder.
 
 `cargo new name`
@@ -42,8 +44,30 @@ Multiple `let` can change type
 
 ### Data Types
 
+Scalar represent a single value: integer, floating-point, Boolean, characters
+floating-point f32 - f64 (default)
 
-in progress - adding daily
+```let x = 2.0; //f64
+let y: f32 = 3.0; //f32```
+
+Numeric operations
+```let sum = 5 + 10;
+let difference = 95.5 - 4.3;
+let product = 4 * 30;
+let quotient = 56.7/32.2;
+let remainder = 43 % 5;```
+
+Boolean
+```let t = true;
+let f :bool = false;```
+
+Character - single quote, string literals double quote
+```let c = 'z';```
+
+Compound types
+tuple - fixed length
+let tup :(i32, f64, u8) = (500, 6.4, l);
+  variable tup binds to the entire tuple to get individual values - since considered a single compound element
 
 
       
