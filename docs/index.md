@@ -47,18 +47,6 @@ Multiple `let` can change type
 Scalar represent a single value: integer, floating-point, Boolean, characters
 floating-point f32 - f64 (default)
 
-`let x = 2.0;
-
-let y: f32 = 3.0;`
-
-Boolean
-`let t = true;
-
-let f :bool = false;`
-
-Character - single quote, string literals double quote
-`let c = 'z';`
-
 Compound types
 tuple - fixed length
 `let tup :(i32, f64, u8) = (500, 6.4, l);`
