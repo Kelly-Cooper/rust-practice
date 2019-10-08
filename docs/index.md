@@ -47,9 +47,9 @@ Multiple `let` can change type
 Scalar represent a single value: integer, floating-point, Boolean, characters
 floating-point f32 - f64 (default)
 
-`let x = 2.0; //f64
+`let x = 2.0;
 
-let y: f32 = 3.0; //f32`
+let y: f32 = 3.0;`
 
 Boolean
 `let t = true;
